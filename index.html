@@ -10,7 +10,8 @@
   <div id="app">
 
     <!-- ko text: name --><!-- /ko -->
-
+    <div data-bind="text: counter"></div>
+    <button data-bind="click: increment">+</button>
   </div>
   <script>
     System.import('app').catch(function(err){ console.error(err); });
