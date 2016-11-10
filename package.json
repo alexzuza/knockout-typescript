@@ -1,0 +1,27 @@
+{
+  "name": "knockout-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/knockout": "^3.4.36",
+    "@types/node": "^6.0.45",
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.8"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "knockout": "^3.4.1",
+    "systemjs": "0.19.41"
+  }
+}
